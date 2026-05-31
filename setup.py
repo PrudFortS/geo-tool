@@ -15,7 +15,7 @@ setup(
             "geo-tool=geo_tool.cli:main",
         ],
     },
-    author="Your Name",
+    author="PrudFortS",
     description="GEO/ENA 数据下载与处理工具",
     long_description="""
 GEO Tool 是一个用于下载和处理 GEO/ENA 数据的命令行工具。
