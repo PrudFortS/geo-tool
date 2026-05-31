@@ -69,8 +69,8 @@ geo-tool ena --prjna-ids PRJNA123456 --key-file /path/to/asperaweb_id_dsa.putty 
 ```bash
 geo-tool geo -d --gse-ids GSE12345 \
     --output-dir /data/output \
-    --run-time-start 22.0 \
-    --run-time-end 6.0
+    --run-time-start 16:00 \
+    --run-time-end 6:00
 ```
 
 ## 命令行参数
@@ -102,8 +102,8 @@ usage: geo-tool geo [-h] --output-dir OUTPUT_DIR
 
 公共参数:
   --output-dir OUTPUT_DIR         输出目录
-  --run-time-start                运行开始时间（默认：18.0）
-  --run-time-end                  运行结束时间（默认：08.0）
+  --run-time-start                运行开始时间（默认：18:00）
+  --run-time-end                  运行结束时间（默认：08:00）
   --status-file STATUS_FILE       状态文件路径（默认：task_status.json）
 ```
 
